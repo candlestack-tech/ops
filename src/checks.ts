@@ -16,7 +16,7 @@ const MAX_BODY = 256 * 1024;
 const AGENT_STALE_S = 3 * INTERVAL;
 /** A boot time that moved further than this is a reboot, not clock noise. */
 const REBOOT_SLACK_S = 120;
-const USER_AGENT = "candlestack-ops/2.0 (+https://github.com/CandleStack-FEI-STU/ops)";
+const USER_AGENT = "candlestack-ops/2.0 (+https://github.com/candlestack-tech/ops)";
 /** Targets with a 30-day strip; the others only produce events. */
 const STRIP_TARGETS = new Set(["prod", "stage"]);
 
