@@ -49,7 +49,7 @@ before, and the Worker still falls back to it for an environment without `backen
 ## Agent contract
 
 The agent is `infra/agent/agent.py` in
-[CandleStack-FEI-STU/candlestack](https://github.com/CandleStack-FEI-STU/candlestack). It stores
+[candlestack-tech/candlestack](https://github.com/candlestack-tech/candlestack). It stores
 nothing and holds no secrets. `GET https://vm.candlestack.tech/api/snapshot` returns:
 
 ```json
